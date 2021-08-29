@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1455162818000,
+    "url": "http://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2015-01-01&endtime=2015-12-31&minmagnitude=6",
+    "title": "News List",
+    "status": 200
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "time": 1501567988711,
+        "updated": 1455030240063,
+        "tz": 270,
+        "hoge": 20.5,
+        "content": "松本に幽閉",
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us100049i1",
+        "type": "news"
+      },
+      "geometry": { "type": "Point", "coordinates": [137.973, 36.239, 206] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "time": 1535523429351,
+        "updated": 1427439745040,
+        "tz": -360,
+        "hoge": 14.8,
+        "content": "暗黒",
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/usc000tcba",
+        "type": "news"
+      },
+      "geometry": { "type": "Point", "coordinates": [137.976, 36.237, 8] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "time": 1564639988711,
+        "updated": 1427439745040,
+        "tz": -360,
+        "hoge": 14.8,
+        "content": "松本脱出",
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/usc000tcba",
+        "type": "news"
+      },
+      "geometry": { "type": "Point", "coordinates": [137.976, 36.237, 8] }
+    }
+  ],
+  "bbox": [-178.7298, -55.755, 5, 179.1278, 59.8935, 664]
+}
